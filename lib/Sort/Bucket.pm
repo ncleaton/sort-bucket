@@ -19,7 +19,7 @@ __END__
 
 =head1 NAME
 
-Sort::Bucket - fast string sorting
+Sort::Bucket - a fast XS bucket sort
 
 =head1 SYNOPSIS
 

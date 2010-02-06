@@ -66,7 +66,7 @@ This function gives the test suite low-level access to ms_do_mergesort().
 The B<values> AV must hold U32 values.  Calls ms_do_mergesort() on
 B<values>[B<offset> .. B<offset>+B<sortlen>-1], which will sort those
 elements partially in place, moving them down B<sortlen>-1 slots in the
-process.  See F<src/mergesort-algo.c>.
+process.  See F<src/mergesort_algo.c>.
 
 After this function returns, the elements of B<values> will be error
 message strings if a problem was detected, otherwise they will be integers

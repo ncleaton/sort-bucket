@@ -1,4 +1,4 @@
-# Tests for code in src/mergesort-algo.c
+# Tests for code in src/mergesort_algo.c
 
 use strict;
 use warnings;

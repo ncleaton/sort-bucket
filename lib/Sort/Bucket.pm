@@ -40,7 +40,7 @@ first few bytes of the strings to be sorted.
 
 Only in-place sorting is implemented so far.
 
-Limited to sorting in standard string comparision order.
+Limited to sorting in standard string comparison order.
 
 B<Sort::Bucket> can be used to sort either byte strings or character
 strings, but not a mixture.  If you apply B<Sort::Bucket> to an array
@@ -67,12 +67,12 @@ for import:
 
 Sorts ARRAY_OF_STRINGS in-place.
 
-BUCKET_BITS specifes the number of bits from the start of each string
+BUCKET_BITS specifies the number of bits from the start of each string
 to use to select the bucket into which to place the string.  If set,
 it must be an integer from 1 to 31.
 
 The elements of the array will be distributed into 2**BUCKET_BITS buckets,
-and then sorted within each bucket.  If BUCKET_BITS is ommited then a
+and then sorted within each bucket.  If BUCKET_BITS is omitted then a
 sensible value will be selected based on the size of the array.
 
 =back

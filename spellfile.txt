@@ -15,6 +15,7 @@ CheckChanges
 chr
 cleaton
 cmp
+com
 cp
 CPAN
 dest
@@ -31,6 +32,7 @@ fh
 FIXME
 foo
 foreach
+github
 gt
 HasVersion
 HiRes
@@ -50,6 +52,7 @@ md
 mergesort
 min
 mse
+ncleaton
 ne
 netE
 Newx

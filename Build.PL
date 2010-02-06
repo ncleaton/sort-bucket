@@ -23,6 +23,11 @@ my $builder = Module::Build->new(
         'Test::More'           => 0.88, # Need 0.88 for done_testing()
         'Time::HiRes'          => 0,
     },
+    meta_merge => {
+        resources => {
+            repository => 'git://github.com/ncleaton/sort-bucket.git',
+        },
+    },
     create_makefile_pl => 'small',
 );
 

@@ -1,1 +1,10 @@
 *.tar.gz
+Build
+Debian_CPANTS*
+MANIFEST*
+META.yml
+Makefile.PL
+_build
+blib/
+lib/Sort/Bucket.c
+lib/Sort/Bucket.o
